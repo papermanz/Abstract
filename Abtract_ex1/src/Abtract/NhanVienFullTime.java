@@ -6,7 +6,7 @@ public class NhanVienFullTime extends NhanVien {
     private int loaiChucVu; // Chức vụ là Nhân Viên hay sếp
      
     public NhanVienFullTime(String ten, int ngayLamThem, int loaiChucVu) {
-        super(ten);
+        this.ten = ten;
         this.ngayLamThem = ngayLamThem;
         this.loaiChucVu = loaiChucVu;
     }
