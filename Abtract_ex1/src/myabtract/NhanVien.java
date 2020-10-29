@@ -1,4 +1,4 @@
-package Abtract;
+package myabtract;
 
 public abstract class NhanVien {
 	

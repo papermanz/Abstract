@@ -1,4 +1,4 @@
-package Abtract;
+package myabtract;
 
 import java.util.Scanner;
 

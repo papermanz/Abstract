@@ -1,4 +1,4 @@
-package Abtract;
+package myabtract;
 
 public class NhanVienFullTime extends NhanVien {
 

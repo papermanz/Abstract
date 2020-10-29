@@ -1,4 +1,4 @@
-package Abtract;
+package myabtract;
 
 public class NhanVienPartTime extends NhanVien {
 	private int gioLamViec; // Tổng số giờ làm việc của nhân viên
