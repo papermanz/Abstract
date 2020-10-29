@@ -47,7 +47,7 @@ package example;
 		      T1.start();
 		      T2.start();
 
-		      // wait for threads to end
+		      // Đợi thread kết thúc
 		         try {
 		         T1.join();
 		         T2.join();
