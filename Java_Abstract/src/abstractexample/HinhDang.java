@@ -1,4 +1,7 @@
-package Abstract;
+package abstractexample;
+
+
+// Tên Package phải viết thường
 
 abstract class HinhDang {
 	  private final float PI = 3.14F; // Biến để lưu giá trị của số PI

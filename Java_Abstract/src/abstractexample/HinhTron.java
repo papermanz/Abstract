@@ -1,4 +1,4 @@
-package Abstract;
+package abstractexample;
 
 /* Định nghĩa lớp con HinhTron */
 class HinhTron extends HinhDang {
