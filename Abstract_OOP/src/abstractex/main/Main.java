@@ -1,8 +1,8 @@
-package Abstract.main;
+package abstractex.main;
 
-import Abstract.model.Address;
-import Abstract.model.School;
-import Abstract.model.Student;
+import abstractex.model.Address;
+import abstractex.model.School;
+import abstractex.model.Student;
 public class Main {
 
 	//QUAN HE Has A

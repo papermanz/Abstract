@@ -1,4 +1,4 @@
-package Abstract.model;
+package abstractex.model;
 
 import java.util.Scanner;
 
