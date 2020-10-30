@@ -1,7 +1,6 @@
 package threadexample;
 
-import java.lang.System.Logger;
-import java.lang.System.Logger.Level;
+
 
 public class Thread2 extends Thread {
 	@Override
@@ -22,10 +21,12 @@ public class Thread2 extends Thread {
             
                 //Neu dc chay
                 int rad = SharedData.getInstance().getRad();
+                if(rad %3==0) {
                 int r = rad * rad;
                 System.out.println("T2 >> So Binh Phuong >> " + r);
                 
                 SharedData.getInstance().setIndex(SharedData.INDEX_THREAD_1);
+                }
             }
         }
         

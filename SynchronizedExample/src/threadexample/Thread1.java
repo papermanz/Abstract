@@ -1,7 +1,5 @@
 package threadexample;
 
-import java.lang.System.Logger;
-import java.lang.System.Logger.Level;
 import java.util.Random;
 
 public class Thread1 extends Thread {
