@@ -11,9 +11,10 @@ public class Thread3 extends Thread {
                 //T3 - Kiem tra xem co dc chay hay ko
                 SharedData.getInstance().notifyAll();
    
-                    while (SharedData.getInstance().isRunning() && SharedData.getInstance().getIndex() != SharedData.INDEX_THREAD_3) {                        
                         try {
+                           while (SharedData.getInstance().isRunning() && SharedData.getInstance().getIndex() != SharedData.INDEX_THREAD_3) {                        
 							SharedData.getInstance().wait();
+                           }
 						} catch (InterruptedException e) {
 							// TODO Auto-generated catch block
 							e.printStackTrace();
@@ -39,5 +40,5 @@ public class Thread3 extends Thread {
     }
     
 
-	}
 }
+

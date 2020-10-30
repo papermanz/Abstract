@@ -11,9 +11,10 @@ public class Thread2 extends Thread {
                 //Kiem tra xem T2 > co duoc phep chay hay ko
                 SharedData.getInstance().notifyAll();
                 
-                    while (SharedData.getInstance().isRunning() && SharedData.getInstance().getIndex() != SharedData.INDEX_THREAD_2) {                        
                         try {
+                            while (SharedData.getInstance().isRunning() && SharedData.getInstance().getIndex() != SharedData.INDEX_THREAD_2) {                        
 							SharedData.getInstance().wait();
+                            }
 						} catch (InterruptedException e) {
 							// TODO Auto-generated catch block
 							e.printStackTrace();
@@ -34,5 +35,5 @@ public class Thread2 extends Thread {
         }
     }
 
-	}
 }
+

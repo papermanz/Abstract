@@ -31,7 +31,6 @@ public class Thread1 extends Thread {
 					try {
 						SharedData.getInstance().wait();
 					} catch (InterruptedException e) {
-	                 //  System.Logger.getLogger(Thread2.class.getName()).log(Level.INFO, null, e);
 						e.printStackTrace();
 					}
 				
