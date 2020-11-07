@@ -1,4 +1,5 @@
 package factoryparttern;
+//subclass
 
 public class DanDung extends Plan {
 

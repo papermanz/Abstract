@@ -1,5 +1,5 @@
 package factoryparttern;
-
+//superclass
 public abstract class Plan {
 	protected double rate;
 	abstract void getRate();

@@ -1,5 +1,5 @@
 package factoryparttern;
-
+//subclass
 public class DoanhNghiep extends Plan {
 
 	@Override
